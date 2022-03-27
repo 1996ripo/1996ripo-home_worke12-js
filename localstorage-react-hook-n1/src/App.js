@@ -33,9 +33,9 @@ function App() {
     return (
         <>
             <input ref={myinput} name="myinput" type="text" />
-            <button onClick={CleareLocalStorage} >Cleare LocalStorage </button>
-            <button onClick={getItemFromLocalStorage}>get LocalStorage </button>
-            <button onClick={setItemToLocalStorage}>set LocalStorage </button>
+            {/* <button onClick={CleareLocalStorage} >Cleare LocalStorage </button> */}
+            {/* <button onClick={getItemFromLocalStorage}>get LocalStorage </button> */}
+            {/* <button onClick={setItemToLocalStorage}>set LocalStorage </button> */}
             <button onClick={removeItemToLzocalStorage}>remove LocalStorage </button>
             <div id="inf-div">Get local data inf - {dataInf ? dataInf : '""'}</div>
         </>
